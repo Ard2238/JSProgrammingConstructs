@@ -1,6 +1,7 @@
 const prompt = require('prompt-sync')();
 
 let num1 = prompt("Enter the number between 0-9: ");
+num1 = parseInt(num1);
 switch(num1){
     case 0:{
         console.log("Zero");
